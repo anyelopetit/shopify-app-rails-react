@@ -1,3 +1,6 @@
+# Inherit from AuthenticatedController makes the GraphqlController an
+#   authenticated resource. To access this endpoint, a session token is required
+#   on all requests.
 class GraphqlController < AuthenticatedController
   # If accessing from outside this domain, nullify the session
   # This allows for outside API access while preventing CSRF attacks,
