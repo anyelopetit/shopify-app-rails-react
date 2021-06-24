@@ -58,3 +58,5 @@ gem 'dotenv-rails'
 gem 'graphql'
 gem 'react-rails'
 gem 'shopify_app', '~> 17.1.0' # v17.1.0 is used in this guide
+
+gem 'graphiql-rails', group: :development
