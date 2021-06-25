@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-class ProductsController < AuthenticatedController
+class OrdersController < AuthenticatedController
   def index
     # @products = ShopifyAPI::Product.find(:all, params: { limit: 10 })
-    @products = get(api_products_url)
+    @orders = get(api_orders_url)
 
-    render json: @products
+    render json: @orders
   end
 end

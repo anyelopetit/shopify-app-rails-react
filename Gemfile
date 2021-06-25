@@ -57,6 +57,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails'
 gem 'graphql'
 gem 'react-rails'
-gem 'shopify_app', '~> 17.1.0' # v17.1.0 is used in this guide
+gem 'rest-client'
+gem 'shopify_api'
+gem 'shopify_app', '~> 17.1.0'
 
 gem 'graphiql-rails', group: :development
