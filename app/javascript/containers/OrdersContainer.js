@@ -1,7 +1,7 @@
 import React from 'react';
 import fetchOrders from '../actions/fetchOrders';
 import { connect } from 'react-redux';
-import Product from '../components/Product';
+import Order from '../components/Order';
 
 class OrdersContainer extends React.Component {
     constructor() {
@@ -18,7 +18,7 @@ class OrdersContainer extends React.Component {
 
     render() {
         if (this.props.products.products) {
-            return this.props.products.products.map(prod => <Product data={prod} />)
+            return this.props.products.products.map(prod => <Order data={prod} />)
         } else {
             return <h2>No products yet.</h2>
         }
