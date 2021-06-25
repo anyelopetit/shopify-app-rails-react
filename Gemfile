@@ -59,6 +59,5 @@ gem 'graphql'
 gem 'react-rails'
 gem 'rest-client'
 gem 'shopify_api'
-gem 'shopify_app', '~> 17.1.0'
 
 gem 'graphiql-rails', group: :development
